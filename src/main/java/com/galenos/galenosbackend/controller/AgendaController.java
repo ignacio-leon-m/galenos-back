@@ -1,7 +1,9 @@
 package com.galenos.galenosbackend.controller;
 
-/**
- * Created by ignac on 25-10-2023.
- */
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/agenda")
 public class AgendaController {
 }
